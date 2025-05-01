@@ -36,3 +36,9 @@ class Book:
         """
         status = "Read" if self.is_read else "Unread"
         return f"'{self.title}' by '{self.author}' (ISBN: {self.isbn}) - Status: {status}"
+    
+    def __repr__(self):
+        """
+        Returns an unambiguous string representation of the object.
+        """
+        return f"Book(title='{self.title}', author='{self.author}', isbn='{self.isbn}')"
