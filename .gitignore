@@ -1,0 +1,39 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+*/env/
+*/venv/
+*/.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Notebook Checkpoints
+.ipynb_checkpoints
+
+# MyPy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
