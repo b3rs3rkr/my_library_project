@@ -12,14 +12,11 @@ class Book:
             author (str): The author of the book.
             isbn (str): The International Standard Book Number.
         """
-        # --- Attributes ---
-        # These are public attributes, acessible directly
         self.title = title
         self.author = author
         self.isbn = isbn
-        self.is_read = False # By default when a book is added it wasn't read yet
+        self.is_read = False
 
-    # Methods
     def mark_as_read(self):
         """Marks the book as read."""
         self.is_read = True
